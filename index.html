@@ -1,78 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel CocoBeach</title>
     <link rel="stylesheet" href="./public/styles/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-    <link
-      rel="shortcut icon"
-      href="./public/img/Logo_coco.png"
-      type="img/png"
-    />
-  </head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="shortcut icon" href="./public/img/Logo_coco.png" type="img/png" />
+</head>
 
-  <body>
+<body>
     <!-- Hero Area -->
     <div class="hero__area">
-      <div class="container">
-        <!-- Header -->
-        <header>
-          <svg width="157" height="37">
-            <text x="5" y="20" viewBox="0 0 157 37" fill="Yellow">
-              CocoBeach Camp
-            </text>
-          </svg>
-          <button class="reservations">
-            <i class="material-icons">bookmark_border </i>
-            reservations
-          </button>
-        </header>
-        <!-- Section -->
-        <section>
-          <h1 class="main__heading">
-            Travel is the only thing you buy tha makes you richer
-          </h1>
-          <button class="adventure">
-            <i class="material-icons">play_circle_filled</i>
-            adventure
-          </button>
-          <form action="#" class="booking">
-            <div class="booking__inputs">
-              <!-- checkin -->
-              <div class="booking__input">
-                <label for="check-in">Check in</label>
-                <input type="date" id="check-in" />
-              </div>
-              <!-- checkout -->
-              <div class="booking__input">
-                <label for="check-in">Check out</label>
-                <input type="date" id="check-out" />
-              </div>
-              <!-- persons -->
-              <div class="booking__input">
-                <label for="persons">Persons</label>
-                <select name="personNumber" id="persons">
-                  <option value="1">1 adult</option>
-                  <option value="2">2 adult</option>
-                  <option value="3">3 adult</option>
-                  <option value="">4 adult</option>
-                </select>
-              </div>
+        <div class="top-header" id="top-header">
+            <div class="container">
+                <!-- Header -->
+                <header>
+                    <svg width="157" height="37">
+                        <text x="5" y="20" viewBox="0 0 157 37" fill="Yellow">
+                            CocoBeach Camp
+                        </text>
+                    </svg>
+                    <button class="reservations">
+                        <i class="material-icons">bookmark_border </i>
+                        reservations
+                    </button>
+                </header>
             </div>
-            <button class="booking__button">Book now</button>
-          </form>
-        </section>
-      </div>
+        </div>
+
+        <!-- Section -->
+
+        <div class="container">
+            <section>
+                <h1 class="main__heading">
+                    Travel is the only thing you buy tha makes you richer!🎉
+                </h1>
+                <button class="adventure">
+                    <i class="material-icons">play_circle_filled</i>
+                    adventure
+                </button>
+                <form action="#" class="booking">
+                    <div class="booking__inputs">
+                        <!-- checkin -->
+                        <div class="booking__input">
+                            <label for="check-in">Check in</label>
+                            <input type="date" id="check-in" />
+                        </div>
+                        <!-- checkout -->
+                        <div class="booking__input">
+                            <label for="check-in">Check out</label>
+                            <input type="date" id="check-out" />
+                        </div>
+                        <!-- persons -->
+                        <div class="booking__input">
+                            <label for="persons">Persons</label>
+                            <select name="personNumber" id="persons">
+                                <option value="1">1 adult</option>
+                                <option value="2">2 adult</option>
+                                <option value="3">3 adult</option>
+                                <option value="">4 adult</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="booking__button">Book now</button>
+                </form>
+            </section>
+        </div>
     </div>
 
-   
+    <!-- About Us -->
+    <section class="about-us">
+        <div class="container">
+            <div class="section-name">about us</div>
+
+            <div class="about-us__content">
+                <div class="about-us__content--left">
+                    <h2>People don't take trips, trips take people. Let's go CocoBeach!🛩🛩</h2>
+
+                    <p> If you think your country does everything the right way and is
+                        revered by other nations, you’ll definitely have those notions put
+                        to the test when you enter another country..😀
+                    </p>
+
+                    <img src="./public/img/aboutus1.jpg" alt="About us 1">
+                </div>
+
+                <div class="about-us__content--right">
+                    <p> Have you ever felt the rain on your skin in multiple countries? I
+                        have, and I’m here to tell you that it’s always a thrilling
+                        sensation each time it happens somewhere new. By traveling, I’ve
+                        learned to appreciate things that I would normally ignore.😀
+                    </p>
+
+                    <p>
+                        Just like everyone else, I spend some of my days sitting on a
+                        couch watching television. Of course, these aren’t the moments
+                        that define me, nor are they what I think of when wandering
+                        through my favorite memories.😀
+                    </p>
+
+                    <img src="./public/img/coco2.jpg" alt="About us 2">
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
 
 
-  </body>
+    <!-- ACCOMMODATIONS  -->
+    <section class="accommodations">
+        <div class="container">
+            <div class="section-name">accommodations</div>
+
+            <div class="accommodations__header">
+                <h2>Rooms / Suites.</h2>
+
+                <button class="text-button">
+                    See all Rooms
+                    <i class="material-icons">trending_flat</i>
+                </button>
+            </div>
+
+            <div class="stays">
+                <a href="#" class="stay-card stay-card--col-2">
+                    <img src="./public/img/room1.jpg" alt="Stay 1" />
+
+                    <div class="stay-card__details">
+                        <div class="stay-card__name">Sea View Apartment</div>
+
+                        <div class="stay-card__price">$20</div>
+                    </div>
+                </a>
+
+                <a href="#" class="stay-card">
+                    <img src="./public/img/room2.jpg" alt="Stay 2" />
+
+                    <div class="stay-card__details">
+                        <div class="stay-card__name">Whole House</div>
+
+                        <div class="stay-card__price">$30</div>
+                    </div>
+                </a>
+                <a href="#" class="stay-card">
+                    <img src="./public/img/room3.jpg" alt="Stay 3" />
+
+                    <div class="stay-card__details">
+                        <div class="stay-card__name">Minimal Room</div>
+
+                        <div class="stay-card__price">$35</div>
+                    </div>
+                </a>
+                <a href="#" class="stay-card">
+                    <img src="./public/img/room4.jpg" alt="Stay 4" />
+
+                    <div class="stay-card__details">
+                        <div class="stay-card__name">Rural House</div>
+
+                        <div class="stay-card__price">$25</div>
+                    </div>
+                </a>
+                <a href="#" class="stay-card">
+                    <img src="./public/img/room5.jpg" alt="Stay 5" />
+                    <div class="stay-card__details">
+                        <div class="stay-card__name">Modern House</div>
+                        <div class="stay-card__price">$45</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONITALS   -->
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-name">testimonials</div>
+
+            <h2>What <strong>clients</strong> say about us.</h2>
+
+            <div class="feedback">
+                <div class="feedback-card">
+                    <div class="feedback-card__dialog">
+                        <div class="feedback-card__dialog__title">Amazing hotels!</div>
+                        <div class="feedback-card__dialog__content">
+                            Phasellus ut elementum mauris. Quisque pharetra justo neque, in
+                            pulvinar nisl fringilla in. Duis molestie gravida enim. Cras
+                            fermentum eros ipsum, posuere rutrum nibh eleifend quis.
+                        </div>
+                    </div>
+
+                    <div class="feedback-card__user">
+                        <img src="./public/img/Picture1.jpg" alt="Person 1" />
+
+                        <div class="feedback-card__user__details">
+                            <div class="feedback-card__user__name">Đức Long</div>
+                            <div class="feedback-card__user__location">from Binh Thuan</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feedback-card">
+                    <div class="feedback-card__dialog">
+                        <div class="feedback-card__dialog__title">Best experiences!</div>
+                        <div class="feedback-card__dialog__content">
+                            Phasellus ut elementum mauris. Quisque pharetra justo neque, in
+                            pulvinar nisl fringilla in. Duis molestie gravida enim. Cras
+                            fermentum eros ipsum, posuere rutrum nibh eleifend quis.
+                        </div>
+                    </div>
+
+                    <div class="feedback-card__user">
+                        <img src="./public/img/Picture2.jpg" alt="Person 2" />
+
+                        <div class="feedback-card__user__details">
+                            <div class="feedback-card__user__name">Đức Long</div>
+                            <div class="feedback-card__user__location">from Binh Thuan</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feedback-card">
+                    <div class="feedback-card__dialog">
+                        <div class="feedback-card__dialog__title">
+                            I will go back again
+                        </div>
+                        <div class="feedback-card__dialog__content">
+                            Phasellus ut elementum mauris. Quisque pharetra justo neque, in
+                            pulvinar nisl fringilla in. Duis molestie gravida enim. Cras
+                            fermentum eros ipsum, posuere rutrum nibh eleifend quis.
+                        </div>
+                    </div>
+
+                    <div class="feedback-card__user">
+                        <img src="./public/img/Picture3.jpg" alt="Person 3" />
+
+                        <div class="feedback-card__user__details">
+                            <div class="feedback-card__user__name">Đức Long</div>
+                            <div class="feedback-card__user__location">from Viet Nam</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">©DucLong, github/duclong09</div>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+
 </html>
