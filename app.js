@@ -14,12 +14,7 @@
 const navigation = document.querySelector('nav');
 window.addEventListener('scroll', () => {
     console.log("duclong");
-    if(window.scrollY > 30){
-        navigation.classList.add('anim-nav');
-    }else{
-        navigation.classList.remove('anim-nav');
-    }
-
+    (window.scrollY > 30) ? navigation.classList.add('anim-nav') : navigation.classList.remove('anim-nav');
 })
 
 window.addEventListener('click', (e) => {
